@@ -1,0 +1,77 @@
+@media screen and (min-width: 940px) {
+    #wrapper {
+        width: 75%;
+		
+    }
+   
+}
+@media screen and (max-width: 940px) {
+	#wrapper {
+        width: 75%;	
+    }
+	
+	#skills {
+	padding: 160px;
+	}
+	
+	#skills img{
+	padding-left: 75px;
+	}
+	
+	#chart {
+	display: none;
+	}
+	
+    
+    /*force table to be block*/
+    
+    #skills table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+    
+    /*Hide table header but do not do display: none for accessibility purposes*/
+    
+    thead tr {
+        position: absolute;
+        top: -999px;
+        left: -999px;
+    }
+	
+	
+    tr {
+        border: 1px solid black;
+    }
+    td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+    td:before {
+        /*Adding table header on td before the data*/
+        
+        position: absolute;
+        /*Add padding on top and to the left of the header label*/
+        
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+    #skills td:nth-of-type(1):before {
+        content: "Skill"
+    }
+    #skills td:nth-of-type(2):before {
+        content: "Skill Level"
+    }
+   
+	
+	
+    
+}

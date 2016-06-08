@@ -1,0 +1,377 @@
+/*****GENERAL*****/ 
+body {
+    font-family: 'Open Sans', sans-serif;
+	
+}
+#wrapper {
+    max-width: 940px;
+    margin: auto;
+    /**padding: 0 20%;**/
+    width: 100%;
+
+}
+a {
+    text-decoration: none;
+}
+
+a {
+    color: #0099ff;
+}
+
+.content ul {
+list-style: none;
+}
+
+/*****HEADER*****/
+
+
+#logo img {
+margin: 1% 1% 0% 65%;
+padding: 1% 10% -1% 0%;
+
+}
+
+#logo ul{
+list-style: none;
+}
+
+#logo p {
+margin: 11% 0% -11% 60%;
+padding: 1% 10% -10% 0%;
+font-weight: bold;
+font-size: 125%;
+position: absolute;
+}
+
+/*****VERTICAL LIST*****/
+#verticallist ul{
+	list-style: none;
+}
+
+#verticallist img{
+width: 50px;
+height: 25px;
+float: right;
+}
+
+#verticallist li {
+margin-bottom: 10px;
+padding-top: 10px;
+}
+
+/*****HORIZONTAL LIST*****/
+#horizontallist ul{
+	list-style: none;
+}
+
+#horizontallist li {
+display: inline-block;
+margin-left: 150px;
+}
+/*****bar graph animation*****/
+
+#bar1 {
+width: 100px;
+height: 25px;
+background-color: slategray;
+
+animation-name: bugcrawl1;
+animation-duration: 14s;
+transition: width 14s;
+animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bugcrawl1 {
+    75%  {background-color:slategray; width:700px;}
+}
+
+@-moz-keyframes bugcrawl1 {
+    75%  {background-color:slategray; width:700px;}
+}	
+
+@-ms-keyframes bugcrawl1 {
+	
+    75%  {background-color:slategray; width:700px;}
+}
+
+@animation-keyframes bugcrawl1 {
+	
+    75%  {background-color:slategray; width:700px;}
+}
+
+#bar10 {
+width: 700px;
+height: 25px;
+background-color: slategray;
+opacity: 0.1;
+}
+
+#bar1:hover {
+width: 700px;
+}
+
+#bar2 {
+width: 100px;
+height: 25px;
+background-color: slategray;
+
+animation-name: bugcrawl2;
+animation-duration: 10s;
+transition: width 10s;
+animation-iteration-count: infinite;
+}
+@-webkit-keyframes bugcrawl2 {
+	75%  {background-color:slategray; width:700px;}
+}
+@-moz-keyframes bugcrawl2 {
+	75%  {background-color:slategray; width:700px;}
+}
+@-ms-keyframes bugcrawl2 {
+	75%  {background-color:slategray; width:700px;}
+}
+@animation-keyframes bugcrawl2 {
+	75%  {background-color:slategray; width:700px;}
+}
+
+#bar20 {
+width: 700px;
+height: 25px;
+background-color: slategray;
+opacity: 0.1;
+}
+
+#bar2:hover {
+width: 700px;
+}
+
+#bar3 {
+width: 100px;
+height: 25px;
+background-color: slategray;
+
+animation-name: bugcrawl3;
+animation-duration: 12s;
+transition: width 12s;
+animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bugcrawl3 {
+	75%  {background-color:slategray; width:500px;}
+}
+@-moz-keyframes bugcrawl3 {
+	75%  {background-color:slategray; width:500px;}
+}
+@-ms-keyframes bugcrawl3 {
+	75%  {background-color:slategray; width:500px;}
+}
+@animation-keyframes bugcrawl3 {
+	75%  {background-color:slategray; width:500px;}
+}
+
+#bar30 {
+width: 500px;
+height: 25px;
+background-color: slategray;
+opacity: 0.1;
+}
+
+#bar3:hover {
+width: 500px;
+}
+
+#bar4 {
+width: 100px;
+height: 25px;
+background-color: slategray;
+
+animation-name: bugcrawl4;
+animation-duration: 16s;
+transition: width 16s;
+animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bugcrawl4 {
+	75%  {background-color:slategray; width:250px;}
+}
+@-moz-keyframes bugcrawl4 {
+	75%  {background-color:slategray; width:250px;}
+}
+@-ms-keyframes bugcrawl4 {
+	75%  {background-color:slategray; width:250px;}
+}
+@animation-keyframes bugcrawl4 {
+	75%  {background-color:slategray; width:250px;}
+}
+
+#bar40 {
+width: 250px;
+height: 25px;
+background-color: slategray;
+opacity: 0.1;
+}
+
+#bar4:hover {
+width: 250px;
+}
+
+#bar5 {
+width: 100px;
+height: 25px;
+background-color: slategray;
+
+animation-name: bugcrawl5;
+animation-duration: 16s;
+transition: width 16s;
+animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bugcrawl5 {
+	75%  {background-color:slategray; width:500px;}
+}
+@-moz-keyframes bugcrawl5 {
+	75%  {background-color:slategray; width:500px;}
+}
+@-ms-keyframes bugcrawl5 {
+	75%  {background-color:slategray; width:500px;}
+}
+@animation-keyframes bugcrawl5 {
+	75%  {background-color:slategray; width:500px;}
+}
+
+#bar50 {
+width: 500px;
+height: 25px;
+background-color: slategray;
+opacity: 0.1;
+}
+
+#bar5:hover {
+width: 575px;
+}
+
+#bar6 {
+width: 100px;
+height: 25px;
+background-color: slategray;
+
+animation-name: bugcrawl6;
+animation-duration: 14s;
+transition: width 14s;
+animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bugcrawl6 {
+	75%  {background-color:slategray; width:250px;}
+}
+@-moz-keyframes bugcrawl6 {
+	75%  {background-color:slategray; width:250px;}
+}
+@-ms-keyframes bugcrawl6 {
+	75%  {background-color:slategray; width:250px;}
+}
+@animation-keyframes bugcrawl6 {
+	75%  {background-color:slategray; width:250px;}
+}
+
+#bar60 {
+width: 250px;
+height: 25px;
+background-color: slategray;
+opacity: 0.1;
+}
+
+#bar6:hover {
+width: 250px;
+}
+
+/*****TABLE*****/
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+table,
+th,
+td {
+    border: 1px solid black;
+    height: 30px;
+    vertical-align: center;
+    text-align: left;
+    padding: 5px;
+}
+tr:nth-child(even) {
+    background-color: #F0F0F0;
+}
+
+
+/*****MAIN SECTION*****/
+.content {
+    max-width: 1248px;
+	height: 100%;
+	margin: auto;
+	width: 100%;
+	
+}
+
+
+/***SHOW/HIDE TOPICS***/
+
+input[type=checkbox] {
+display: none;
+}
+
+.content {
+display: none;
+}
+
+input[type=checkbox]:checked ~ .content {
+display: block;
+}
+
+/*****TABLE - GENERAL*****/
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+table,th,td {
+    border: 1px solid black;
+    height: 30px;
+    vertical-align: center;
+    text-align: left;
+    padding: 5px;
+}
+
+#caption {
+text-align: left;
+}
+
+tr:nth-child(even){
+background-color: #E0E0E0;
+}
+
+th {
+background-color: slategray;
+/*background-color: #989898;*/
+color: #f0f0f5;
+}
+
+/*****SKILLS ASSESSMENT*****/
+
+#skills thead th{
+text-align: center;
+}
+
+#skills td {
+padding: 10px 0px -10px;
+text-align: left;
+}
+
+/*****FOOTER*****/
+
+#footer {
+    text-align: center;
+    padding: 50px 0 0 0;
+}
