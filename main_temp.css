@@ -333,13 +333,9 @@ table,th,td {
 text-align: left;
 }
 
-tr:nth-child(even){
-background-color: #E0E0E0;
-}
 
 th {
 background-color: slategray;
-/*background-color: #989898;*/
 color: #f0f0f5;
 }
 
