@@ -287,14 +287,13 @@ width: 250px;
 /*****TABLE*****/
 
 table {
-    border: 1px solid black;
-    border-collapse: collapse;
+    border: 1px solid #F0F0F0;
+	border-collapse: collapse;
     width: 100%;
 }
 table,
 th,
 td {
-    border: 1px solid black;
     height: 30px;
     vertical-align: center;
     text-align: left;
@@ -304,6 +303,14 @@ tr:nth-child(even) {
     background-color: #F0F0F0;
 }
 
+#caption {
+text-align: left;
+}
+
+th {
+background-color: slategray;
+color: #f0f0f5;
+}
 
 /*****MAIN SECTION*****/
 .content {
@@ -314,36 +321,9 @@ tr:nth-child(even) {
 	
 }
 
-/*****TABLE - GENERAL*****/
-
-table {
-    border: 1px solid black;
-    border-collapse: collapse;
-    width: 100%;
-}
-table,th,td {
-    border: 1px solid black;
-    height: 30px;
-    vertical-align: center;
-    text-align: left;
-    padding: 5px;
-}
-
-#caption {
-text-align: left;
-}
-
-
-th {
-background-color: slategray;
-color: #f0f0f5;
-}
-
 /*****SKILLS ASSESSMENT*****/
 
-#skills thead th{
-text-align: center;
-}
+
 
 #skills td {
 padding: 10px 0px -10px;
