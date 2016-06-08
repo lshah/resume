@@ -314,21 +314,6 @@ tr:nth-child(even) {
 	
 }
 
-
-/***SHOW/HIDE TOPICS***/
-
-input[type=checkbox] {
-display: none;
-}
-
-.content {
-display: none;
-}
-
-input[type=checkbox]:checked ~ .content {
-display: block;
-}
-
 /*****TABLE - GENERAL*****/
 
 table {
