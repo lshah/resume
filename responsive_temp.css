@@ -36,6 +36,8 @@
     
     /*Hide table header but do not do display: none for accessibility purposes*/
     
+	
+	
     thead tr {
         position: absolute;
         top: -999px;
@@ -43,10 +45,8 @@
     }
 	
 	
-    
     td {
         border: none;
-        border-bottom: 1px solid #eee;
         position: relative;
         padding-left: 50%;
     }
