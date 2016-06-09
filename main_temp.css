@@ -21,16 +21,12 @@ a {
 
 /*****HEADER*****/
 
-
 #logo img {
 margin: 0% 0% 0% 63%;
 padding: 1% 10% 0% 0%;
 
 }
 
-#logo ul{
-list-style: none;
-}
 
 #logo_text {
 margin: 0% 0% 0% 60%;
@@ -297,6 +293,10 @@ td {
 }
 tr:nth-child(even) {
     background-color: #F0F0F0;
+}
+
+td {
+padding: 1em;
 }
 
 #caption {
