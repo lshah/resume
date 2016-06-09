@@ -23,8 +23,8 @@ a {
 
 
 #logo img {
-margin: 1% 1% 0% 65%;
-padding: 1% 10% -1% 0%;
+margin: 0% 0% 0% 63%;
+padding: 1% 10% 0% 0%;
 
 }
 
@@ -32,12 +32,11 @@ padding: 1% 10% -1% 0%;
 list-style: none;
 }
 
-#logo p {
-margin: 11% 0% -11% 60%;
-padding: 1% 10% -10% 0%;
+#logo_text {
+margin: 0% 0% 0% 60%;
+padding: 1% 10% 0% 0%;
 font-weight: bold;
 font-size: 125%;
-position: absolute;
 }
 
 /*****VERTICAL LIST*****/
