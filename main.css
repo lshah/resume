@@ -58,7 +58,7 @@ padding-top: 10px;
 
 #horizontallist li {
 display: inline-block;
-margin-left: 150px;
+margin-left: 125px;
 }
 /*****bar graph animation*****/
 
@@ -74,32 +74,32 @@ animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes bugcrawl1 {
-    75%  {background-color:slategray; width:700px;}
+    75%  {background-color:slategray; width:625px;}
 }
 
 @-moz-keyframes bugcrawl1 {
-    75%  {background-color:slategray; width:700px;}
+    75%  {background-color:slategray; width:625px;}
 }	
 
 @-ms-keyframes bugcrawl1 {
 	
-    75%  {background-color:slategray; width:700px;}
+    75%  {background-color:slategray; width:625px;}
 }
 
 @animation-keyframes bugcrawl1 {
 	
-    75%  {background-color:slategray; width:700px;}
+    75%  {background-color:slategray; width:625px;}
 }
 
 #bar10 {
-width: 700px;
+width: 625px;
 height: 25px;
 background-color: slategray;
 opacity: 0.1;
 }
 
 #bar1:hover {
-width: 700px;
+width: 625px;
 }
 
 #bar2 {
@@ -113,27 +113,27 @@ transition: width 10s;
 animation-iteration-count: infinite;
 }
 @-webkit-keyframes bugcrawl2 {
-	75%  {background-color:slategray; width:700px;}
+	75%  {background-color:slategray; width:625px;}
 }
 @-moz-keyframes bugcrawl2 {
-	75%  {background-color:slategray; width:700px;}
+	75%  {background-color:slategray; width:625px;}
 }
 @-ms-keyframes bugcrawl2 {
-	75%  {background-color:slategray; width:700px;}
+	75%  {background-color:slategray; width:625px;}
 }
 @animation-keyframes bugcrawl2 {
-	75%  {background-color:slategray; width:700px;}
+	75%  {background-color:slategray; width:625px;}
 }
 
 #bar20 {
-width: 700px;
+width: 625px;
 height: 25px;
 background-color: slategray;
 opacity: 0.1;
 }
 
 #bar2:hover {
-width: 700px;
+width: 625px;
 }
 
 #bar3 {
@@ -148,27 +148,27 @@ animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes bugcrawl3 {
-	75%  {background-color:slategray; width:500px;}
+	75%  {background-color:slategray; width:425px;}
 }
 @-moz-keyframes bugcrawl3 {
-	75%  {background-color:slategray; width:500px;}
+	75%  {background-color:slategray; width:425px;}
 }
 @-ms-keyframes bugcrawl3 {
-	75%  {background-color:slategray; width:500px;}
+	75%  {background-color:slategray; width:425px;}
 }
 @animation-keyframes bugcrawl3 {
-	75%  {background-color:slategray; width:500px;}
+	75%  {background-color:slategray; width:425px;}
 }
 
 #bar30 {
-width: 500px;
+width: 425px;
 height: 25px;
 background-color: slategray;
 opacity: 0.1;
 }
 
 #bar3:hover {
-width: 500px;
+width: 425px;
 }
 
 #bar4 {
@@ -183,27 +183,27 @@ animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes bugcrawl4 {
-	75%  {background-color:slategray; width:250px;}
+	75%  {background-color:slategray; width:175px;}
 }
 @-moz-keyframes bugcrawl4 {
-	75%  {background-color:slategray; width:250px;}
+	75%  {background-color:slategray; width:175px;}
 }
 @-ms-keyframes bugcrawl4 {
-	75%  {background-color:slategray; width:250px;}
+	75%  {background-color:slategray; width:175px;}
 }
 @animation-keyframes bugcrawl4 {
-	75%  {background-color:slategray; width:250px;}
+	75%  {background-color:slategray; width:175px;}
 }
 
 #bar40 {
-width: 250px;
+width: 175px;
 height: 25px;
 background-color: slategray;
 opacity: 0.1;
 }
 
 #bar4:hover {
-width: 250px;
+width: 175px;
 }
 
 #bar5 {
@@ -218,27 +218,27 @@ animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes bugcrawl5 {
-	75%  {background-color:slategray; width:500px;}
+	75%  {background-color:slategray; width:425px;}
 }
 @-moz-keyframes bugcrawl5 {
-	75%  {background-color:slategray; width:500px;}
+	75%  {background-color:slategray; width:425px;}
 }
 @-ms-keyframes bugcrawl5 {
-	75%  {background-color:slategray; width:500px;}
+	75%  {background-color:slategray; width:425px;}
 }
 @animation-keyframes bugcrawl5 {
-	75%  {background-color:slategray; width:500px;}
+	75%  {background-color:slategray; width:425px;}
 }
 
 #bar50 {
-width: 500px;
+width: 425px;
 height: 25px;
 background-color: slategray;
 opacity: 0.1;
 }
 
 #bar5:hover {
-width: 575px;
+width: 425px;
 }
 
 #bar6 {
@@ -253,27 +253,27 @@ animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes bugcrawl6 {
-	75%  {background-color:slategray; width:250px;}
+	75%  {background-color:slategray; width:175px;}
 }
 @-moz-keyframes bugcrawl6 {
-	75%  {background-color:slategray; width:250px;}
+	75%  {background-color:slategray; width:175px;}
 }
 @-ms-keyframes bugcrawl6 {
-	75%  {background-color:slategray; width:250px;}
+	75%  {background-color:slategray; width:175px;}
 }
 @animation-keyframes bugcrawl6 {
-	75%  {background-color:slategray; width:250px;}
+	75%  {background-color:slategray; width:175px;}
 }
 
 #bar60 {
-width: 250px;
+width: 175px;
 height: 25px;
 background-color: slategray;
 opacity: 0.1;
 }
 
 #bar6:hover {
-width: 250px;
+width: 175px;
 }
 
 /*****TABLE*****/
