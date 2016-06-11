@@ -1,9 +1,8 @@
 @media screen and (min-width: 940px) {
     #wrapper {
-        width: 75%;
-		
+        width: 75%;	
     }
-   
+	
 }
 @media screen and (max-width: 940px) {
 	#wrapper {
@@ -14,14 +13,17 @@
 	padding: 160px;
 	}
 	
-	#skills img{
-	padding-left: 75px;
-	}
-	
 	#chart {
 	display: none;
 	}
 	
+	#logo_text{
+        white-space: nowrap;	
+    }
+	
+	#logo {
+	width: 50%;
+	}
     
     /*force table to be block*/
     
@@ -33,6 +35,8 @@
     tr {
         display: block;
     }
+	
+	
     
     /*Hide table header but do not do display: none for accessibility purposes*/
     
@@ -56,20 +60,22 @@
         position: absolute;
         /*Add padding on top and to the left of the header label*/
         
-        top: 6px;
+        top: 16px;
         left: 6px;
         width: 45%;
+		
         padding-right: 10px;
         white-space: nowrap;
     }
+	
+	
     #skills td:nth-of-type(1):before {
         content: "Skill"
     }
     #skills td:nth-of-type(2):before {
         content: "Level"
     }
-   
 	
-	
+
     
 }

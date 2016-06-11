@@ -287,16 +287,17 @@ table,
 th,
 td {
     height: 30px;
-    vertical-align: center;
     text-align: left;
-    padding: 5px;
 }
 tr:nth-child(even) {
     background-color: #F0F0F0;
 }
 
+
+th,
+tr,
 td {
-padding: 1em;
+    padding: 0.8em;
 }
 
 #caption {
@@ -315,13 +316,6 @@ color: #f0f0f5;
 	margin: auto;
 	width: 100%;
 	
-}
-
-/*****SKILLS ASSESSMENT*****/
-
-#skills td {
-padding: 10px 0px -10px;
-text-align: left;
 }
 
 /*****FOOTER*****/
